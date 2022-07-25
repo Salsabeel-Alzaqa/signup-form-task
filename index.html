@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Signup Form</title>
+        <link rel="icon" type="img/png" href="signup.jpg">
+    </head>
+    <body>
+        <main>
+            <form action="https://formspree.io/f/myyorypz" method="post" enctype="application/x-www-form-urlencoded">
+                <fieldset>
+                    <legend>Signup Form </legend>
+                    <ul>
+                        <li><label for="FullName">Full Name * : </label>
+                            <input required name="FullName" id="FullName" value="" type="text" tabindex="0" placeholder="full name"></li>
+                        <li><label for="email">Email * :</label>
+                            <input required name="email" id="email" value="" type="email" tabindex="0" placeholder="example@gmail.com"></li>
+                        <li><label for="password">password * :</label>
+                            <input required name="password" id="password" value="" type="password" tabindex="0" placeholder="********" minlength="8"></li>
+                        <li><label for="PhoneNumber">Phone Number * :</label>
+                            <input required name="PhoneNumber" id="PhoneNumber" value="" type="tel" tabindex="0" placeholder="059-0000"></li>
+                        <li><label for="DateB">Date of Birth :</label>
+                            <input name="DateB" id="DateB" value="DateB" type="date" tabindex="0" placeholder="" ></li>
+                        <li><label for="Country">Country :</label>
+                        <select name="Country" id="Country" value="Country" type="" tabindex="0" placeholder="" >
+                            <option value="Bahrain">Bahrain</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="Iran">Iran</option>
+                            <option value="Iraq">Iraq</option>
+                            <option value="palestine">palestine</option>
+                            <option value="Jordan">Jordan</option>
+                            <option value="Kuwait">Kuwait</option>
+                            <option value="Lebanon">Lebanon</option>
+                            <option value="Libya">Libya</option>
+                            <option value="Morocco">Morocco</option>
+                            <option value="Oman">Oman</option>
+                            <option value="Qatar">Qatar</option>
+                            <option value="Syria">Syria</option>
+                            <option value="Tunisia">Tunisia</option>
+                            <option value="Yemen">Yemen</option>
+                            <option value="SaudiArabia">Saudi Arabia</option>
+                        </select></li>
+                    <li><label for="Plan">Plan  :</label>
+                        <input name="Plan" id="free" value="free" type="radio" tabindex="0">
+                        <label for="free">Free</label>
+                        <input name="Plan" id="pro" value="pro" type="radio" tabindex="0" >
+                        <label for="pro">Pro</label></li></ul>
+                    <input type="checkbox" id="check" value="agree" tabindex="0" >
+                    <label for="check">I agree to terms and conditions</label><br><br>
+                    <button type="submit">signup</button>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
